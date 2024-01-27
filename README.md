@@ -1,5 +1,20 @@
 Project: Менеджер завдань 
 (тім_лід Vitalii Galecki)
+Group list:
+Vitalii G
++ Oleksandr K
++ Yehor
+Marianna
++ Aleksand A
+Krystyna
++ Ilia I
++ Mykola Z
++ Vitaliy Kohan
+Oleg L
+Alex
+Kyrylo
+Oleg N
+
 
 Опис:
 Створіть простий таск-менеджер, який дозволить користувачам додавати, переглядати та редагувати таски. Для цього проекту потрібно застосувати: функції, цикли, умовні оператори, модулі datetime, re та math.
