@@ -11,7 +11,8 @@ def add_task(name_task, descripion_task, date_task, deadline_task):
 
 #Task 2
 def view_tasks(some_task: [], task_index: int):
-    if some_task is not None and some_task[task_index] is not None:
+    if some_task is not None \
+    and some_task[task_index] is not None:
         task_name=some_task[task_index][0]
         task_description=some_task[task_index][1]
         task_date=some_task[task_index][2]
@@ -44,7 +45,9 @@ def delete_task_by_name(all_tasks: [], task_name: str):
     if all_tasks is not None:
         task_number=0
         for task in all_tasks:
-            if task is not None and task_name is not None and task[0]==task_name:
+            if task is not None \
+            and task_name is not None \
+            and task[0]==task_name:
                 deleted_task=all_tasks.pop(task_number)
                 print(f"Next task was successfully deleted ->")
                 print(f"- task name: {deleted_task[0]}, \n - task description: {deleted_task[1]}, \n - date task: {deleted_task[2]}, \n - task deadline: {deleted_task[3]}")
