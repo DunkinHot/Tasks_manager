@@ -35,7 +35,24 @@ def view_all_completed_tasks():
     for task in list_task:
         if task[4]=='Done':
             task_completed.append(task)
-    return 'All completed tasks', task_completed
+    return 'All_completed_tasks', task_completed
+
+#Task 5
+def mark_in_progress(name_task):
+    for task in list_task:
+        if task[0] == name_task:
+            task.append('in_progress')
+    return 'in_progress'
+
+def view_all_in_progress_tasks():
+    task_in_progress=[]
+    for task in list_task:
+        if task[4]=='in_progress':
+            task_in_progress.append(task)
+    return 'in_progress', task_in_progress
+
+
+
 #________________
 
 
