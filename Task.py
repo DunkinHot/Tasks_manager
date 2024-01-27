@@ -26,3 +26,17 @@ def view_all_tasks():
     for i, task in enumerate(list_task):
         print(f"#{i + 1}: {task['title']}")
 
+def mark_completed(name_task):
+    for task in list_task:
+        if task[0] == name_task:
+            task.append('Done')
+    return 'Task_completed'
+
+def view_all_completed_tasks():
+    task_completed=[]
+    for task in list_task:
+        if task[4]=='Done':
+            task_completed.append(task)
+    return 'All completed tasks', task_completed
+
+            
