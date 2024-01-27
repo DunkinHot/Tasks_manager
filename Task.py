@@ -20,7 +20,7 @@ def view_tasks(some_task: [], task_index: int):
 
 
 
-
+#Task 3
 def view_all_tasks():
     print("Всі таски:")
     for i, task in enumerate(list_task):
