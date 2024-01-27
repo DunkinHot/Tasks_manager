@@ -18,3 +18,14 @@ def view_all_tasks():
     for i, task in enumerate(list_task):
         print(f"#{i + 1}: {task['title']}")
 
+
+# eight_task Видалення тасок: Дайте можливість видалити таски по назві.
+def delete_task_by_name(all_tasks: [], task_name: str):
+    if all_tasks is not None:
+        task_number=0
+        for task in all_tasks:
+            if task is not None and task_name is not None and task[0]==task_name:
+                deleted_task=all_tasks.pop(task_number)
+                print(f"Next task was successfully deleted ->")
+                print(f"- task name: {deleted_task[0]}, \n - task description: {deleted_task[1]}, \n - date task: {deleted_task[2]}, \n - task deadline: {deleted_task[3]}")
+            task_number+=1
