@@ -25,7 +25,7 @@ def view_all_tasks():
     print("Всі таски:")
     for i, task in enumerate(list_task):
         print(f"#{i + 1}: {task['title']}")
-
+#Task 4
 def mark_completed(name_task):
     for task in list_task:
         if task[0] == name_task:
@@ -38,5 +38,5 @@ def view_all_completed_tasks():
         if task[4]=='Done':
             task_completed.append(task)
     return 'All completed tasks', task_completed
-
+#________________
             
