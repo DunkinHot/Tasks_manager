@@ -6,7 +6,7 @@ Group list:
 - Krystyna
 - Oleg L
 - Alex
-- Kyrylo
+
 - Oleg N
   
 + Oleksandr K
@@ -15,6 +15,7 @@ Group list:
 + Mykola Z
 + Vitaliy Kohan
 + Aleksand A
++ Kyrylo
 
 Опис:
 Створіть простий таск-менеджер, який дозволить користувачам додавати, переглядати та редагувати таски. Для цього проекту потрібно застосувати: функції, цикли, умовні оператори, модулі datetime, re та math.
