@@ -1,19 +1,19 @@
 Project: Менеджер завдань 
 (тім_лід Vitalii Galecki)
 Group list:
-Vitalii G
+- Vitalii G
 + Oleksandr K
 + Yehor
-Marianna
+- Marianna
 + Aleksand A
-Krystyna
+- Krystyna
 + Ilia I
 + Mykola Z
 + Vitaliy Kohan
-Oleg L
-Alex
-Kyrylo
-Oleg N
+- Oleg L
+- Alex
+- Kyrylo
+- Oleg N
 
 
 Опис:
